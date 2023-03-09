@@ -18,6 +18,7 @@ for(let i =0; i<düğme.length; i++){
 
 function yazdir(){
     ekrann.value = ekrann.value + this.value
+    return ekrann.value;
 }
 
 temizlee.addEventListener("click",temiizle)
